@@ -188,3 +188,38 @@ Virologist
 	backpack = /obj/item/storage/backpack/virology
 	satchel = /obj/item/storage/backpack/satchel/vir
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
+
+/*
+EMT
+*/
+/datum/job/paramedic
+	title = "Paramedic"
+	flag = PARAMEDIC
+	department_head = list("Chief Medical Officer", "Research Director")
+	department_flag = MEDSCI
+	faction = "Station"
+	total_positions = 3
+	spawn_positions = 3
+	supervisors = "the chief medical officer and research director"
+	selection_color = "#ffeef0"
+	exp_type = EXP_TYPE_CREW
+	exp_requirements = 60
+
+	outfit = /datum/outfit/job/paramedic
+
+	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_TECH_STORAGE)
+	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE)
+
+/datum/outfit/job/geneticist
+	name = "Paramedic"
+	jobtype = /datum/job/paramedic
+	
+	belt = /obj/item/device/pda/medical
+	ears = /obj/item/device/radio/headset/headset_med
+	uniform = /obj/item/clothing/under/rank/medical
+	shoes = /obj/item/clothing/shoes/sneakers/white
+	l_hand = /obj/item/storage/firstaid/regular
+
+	backpack = /obj/item/storage/backpack/medic
+	satchel = /obj/item/storage/backpack/satchel/med
+	duffelbag = /obj/item/storage/backpack/duffelbag/med
