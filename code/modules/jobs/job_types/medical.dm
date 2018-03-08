@@ -210,7 +210,7 @@ EMT
 	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_TECH_STORAGE)
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE)
 
-/datum/outfit/job/geneticist
+/datum/outfit/job/paramedic
 	name = "Paramedic"
 	jobtype = /datum/job/paramedic
 	
