@@ -41,7 +41,7 @@
 
 /turf/closed/indestructible/splashscreen
 	name = "Space Station 13"
-	icon = 'icons/blank_title.png'
+	icon = 'icons/blank.png'
 	icon_state = ""
 	layer = FLY_LAYER
 
